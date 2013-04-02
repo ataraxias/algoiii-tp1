@@ -1,0 +1,24 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Ejercicio 1}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Desarrollo}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Correctitud}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Demo}{4}{subsubsection.1.2.1}
+\contentsline {subsection}{\numberline {1.3}Resultados}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}Ejercicio 2}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Desarrollo}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Correctitud}{8}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Demo}{8}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Resultados}{10}{subsection.2.3}
+\contentsline {section}{\numberline {3}Ejercicio 3}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Desarrollo}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Correctitud}{12}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Demo}{12}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Resultados}{14}{subsection.3.3}
+\contentsline {section}{\numberline {4}Ejercicio 4}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Desarrollo}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Correctitud}{16}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Demo}{16}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}Resultados}{18}{subsection.4.3}
+\contentsline {section}{\numberline {5}Conclusiones}{19}{section.5}
+\contentsline {section}{\numberline {6}Librer\IeC {\'\i }as b\IeC {\'a}sicas}{20}{section.6}
+\contentsline {section}{\numberline {7}Referencias}{21}{section.7}

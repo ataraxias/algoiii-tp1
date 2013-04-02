@@ -1,0 +1,79 @@
+% ----------- DEMO -----------
+\begin{subsubsection}{Demo}
+
+Vamos a demostrar que si tenemos una secuencia de máquinas óptima, que no esté
+ordenada de mayor a menor según el tiempo de producción, podemos cambiar
+el orden de dos máquinas adyacentes que estén desordenadas y seguir teniendo
+una solución óptima.
+
+Una secuencia de máquinas óptima es una secuencia tal que el Tiempo
+de producción de la misma es menor o igual que el de cualquiera de sus
+permutaciones.
+
+Definimos una función T para obtener el tiempo total de procesamiento de
+una máquina en la posición k de la secuencia S como
+
+\begin{center}
+$T(S,k)$ = $\left( \displaystyle\sum\limits_{i=0}^k Costo(S_i) \right)$  + $Peso(S_k)$\\
+\end{center}
+
+
+Definimos la función para calcular el tiempo total de procesamiento de
+una secuencia de máquinas como
+\begin{center}
+$Tiempo(S)$ = max \{ $T(S,j)$, $j$ $\in$ [0 , $\vert S \vert$ )\}
+\end{center}
+
+
+Supongamos que tenemos una secuencia $S$ óptima que no se encuentra ordenada.
+Entonces existe un $j$ $<$ $\vert S - 1\vert$ / $Peso(S_j)$ $<$ $Peso(S_{j+1})$.\\
+
+
+Sea $S'$ la secuencia que se forma de intercambiar la máquina de la posición $j$ con la de la posición $j + 1$, quiero ver que $Tiempo(S)$ $\geq$ $Tiempo(S')$.\\
+
+Sea $i \neq j \wedge i \neq j + 1$, es trivial ver que $T(S,i)$ = $T(S',i)$. Es decir, que si el máximo no era ni $j$, ni $j + 1$, el tiempo total se mantiene igual.\\
+
+Supongamos entonces que $Tiempo(S)$ depende de $T(S, j)$ y $T(S, j + 1)$:\\
+
+\begin{center}
+
+$Tiempo(S)$ = max \{ $T(S,j)$ , $T(S,j+1)$ \}
+
+$T(S,j)$ = $\left(\displaystyle\sum\limits_{i=0}^{j-1} Costo(S_i) \right)$ + $Peso(S_j)$ + $Costo(S_j)$
+
+$T(S,j+1) = \left(\displaystyle\sum\limits_{i=0}^{j-1} Costo(S_i) \right) + Peso(S_{j+1}) + Costo(S_{j+1}) + Costo(S_j)$
+
+Por hipótesis, vale que $Peso(S_j) < Peso(S_{j+1})$
+
+$\Downarrow$
+
+
+$Tiempo(S)$ = $T(S,j+1)$
+\end{center}
+
+
+
+\begin{center}
+$Tiempo(S')$ = max \{ $T(S',j)$ , $T(S',j+1)$ \}
+
+
+Como en $S'$ intercambiamos la máquina en la posición $j$ por la máquina en la posición $j + 1$, vale que $S'_j = S_{j+1} \wedge S'_{j + 1} = S_j$
+
+Luego, reemplazando en T las máquinas
+
+$T(S',j)$ = $\left(\displaystyle\sum\limits_{i=0}^{j-1} Costo(S'_i) \right)$ + $Peso(S_{j+1})$ + $Costo(S_{j+1})$
+
+$T(S',j+1)$ = $\left(\displaystyle\sum\limits_{i=0}^{j-1} Costo(S'_i) \right)$ + $Peso(S_j)$ + $Costo(S_j)$ + $Costo(S_{j+1})$
+
+\end{center}
+
+\begin{center}
+
+$Peso(S_{j+1})$ + $Costo(S_{j+1})$ + $Costo(S_j)$ $>$ $Peso(S_j)$ + $Costo(S_j)$ + $Costo(S_{j+1})$\\
+$\Downarrow $
+
+$Tiempo(S)$ $\geq$ $Tiempo(S')$\\
+
+\end{center}
+
+\end{subsubsection}

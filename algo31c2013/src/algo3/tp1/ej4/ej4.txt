@@ -1,0 +1,59 @@
+1 0 0
+0 1 0
+0 0 1
+0 0 1
+
+Primer casillero Libre: (0,0)
+La ficha 1 entra
+La ficha 2 entra
+
+Primer casillero Libre: (0,1)
+TABLERO CON FICHA 1
+1 0 0
+1 0 0
+0 0 0
+0 0 0
+
+Primer casillero Libre: (0,1)
+La ficha 4 entra
+La ficha 5 entra
+
+Primer casillero Libre: (2,0)
+TABLERO CON FICHAS 1,4
+1 1 1
+1 1 1
+0 1 1
+0 1 1
+
+Primer casillero Libre: (2,0)
+La ficha 3 entra
+La ficha 5 entra
+
+Primer casillero Libre: (-1,-1)
+TABLERO CON FICHAS 1,4,3
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+
+Primer casillero Libre: (2,0)
+TABLERO CON FICHAS 1,4
+1 1 1
+1 1 1
+0 1 1
+0 1 1
+
+0 0
+1 0
+0 1
+0 1
+
+0 0 1 1
+0 1 0 0
+1 0
+1 0
+0 1
+0 0
+0 0 1 0
+1 1 0 0
+

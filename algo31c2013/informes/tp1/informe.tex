@@ -1,0 +1,66 @@
+\documentclass[11pt, a4paper,spanish]{article}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{caratula}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{float}	
+
+%\usepackage[ruled,vlined,boxed,commentsnumbered]{algorithm2e}
+	
+% Encabezado y Pie de pagina
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\leftmark} 
+\fancyhead[L]{Algoritmos y Estucturas de Datos III}
+\fancyhead[R]{Trabajo Pr\'actico 1}
+\fancyfoot[R]{\thepage}
+
+
+\begin{document}
+
+% ------------ CARATULA ------------
+    \input{caratula}
+
+% ------------ INDICE ------------
+    
+    \thispagestyle{empty}
+    \tableofcontents
+    \pagebreak
+
+% ------------ EJERCICIO 1 ------------
+
+	\input{./ejercicio1/ejercicio1.tex}
+
+% ------------ EJERCICIO 2 ------------
+
+	\input{./ejercicio2/ejercicio2.tex}
+	
+% ------------ EJERCICIO 3 ------------
+
+	\input{./ejercicio3/ejercicio3.tex}
+	
+% ------------ EJERCICIO 4 ------------
+
+	\input{./ejercicio4/ejercicio4.tex}
+
+% ------------ CONCLUSIONES ------------
+    \section{Conclusiones}
+%	\input{conclusiones}
+    \pagebreak
+    
+% ------------ CONCLUSIONES ------------
+    \section{Librerías básicas}
+%	\input{conclusiones}
+    \pagebreak
+
+% ------------ REFERENCIAS ------------
+    \section{Referencias}
+%	\input{referencias}
+    \pagebreak
+
+\end{document}
